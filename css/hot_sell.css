@@ -1,0 +1,87 @@
+/* 顶端菜单栏css */
+.top_wrapper{
+	font-size: 12px;
+	color: #555;
+	margin-top: 5px;
+	font-family: "microsoft yahei";
+	height: 25px;
+	border-bottom: 1px solid #D3D3D3;
+}
+.mobile{
+	float: left;
+	margin-left: 100px;
+	padding-right: 10px;
+	border-right: 1px solid lightgray;
+}
+.mobile a{
+	display: block;
+	
+}
+
+.login_status li {
+	float: left;
+	margin-left: 10px;
+}
+.top_input_nav li{
+	float: left;
+	padding-right: 15px;
+	margin-left: 15px;
+	border-right: 1px solid lightgray;
+}
+.top_input_nav li a {
+	display: block;
+}
+.top_input_nav li:first-child{
+	margin-left: 100px;
+}
+.top_wrapper a:hover{
+	color: rgb(255,115,0);
+	text-decoration: underline;
+}
+
+/* ------------------------------------------------------------ */
+/* 搜索框栏css */
+
+.hot_nav{
+	margin-top: 30px;
+}
+.topnav1688{
+	float: left;
+	margin-left: 100px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+}
+.topnavre{
+	float: left;
+	padding-left: 5px;
+	border-left: 1px solid #D3D3D3;
+}
+.top_hot_nav{
+	float: left;
+	margin-left: 290px;
+}
+.top_hot_nav li{
+	float: left;
+}
+.top_hot_nav li input{
+	width: 452px;
+	height: 36px;
+	border: 2px solid rgb(255,84,0);
+	border-right: none;
+	outline: none;
+	padding-left: 5px;
+	font-family: tahoma;
+	
+}
+.top_hot_nav li a{
+	color: white;
+	display: block;
+	width: 100px;
+	height: 40px;
+	background-color: #ff5400;
+	line-height: 40px;
+	text-align: center;
+	border: none;
+	font-family: tahoma;
+	font-size: 14px;
+}
