@@ -1,0 +1,30 @@
+
+li{
+	list-style: none;
+}
+a{
+	color: #6C6C6C;
+	text-decoration: none;
+}
+clear01::after{
+	display: block;
+	clear: both;
+	content: ".";
+	visibility: hidden;
+}
+.clear01{
+	zoom: "1";
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+body{
+	color: dimgray;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
