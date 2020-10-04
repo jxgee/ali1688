@@ -16,7 +16,7 @@ clear01::after{
 	zoom: "1";
 }
 body, button, input, select, textarea {
-    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    font: 12px/1.5 tahoma,"microsoft yahei",arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
 }
 body{
 	color: dimgray;
@@ -27,4 +27,9 @@ body{
 *{
 	margin: 0;
 	padding: 0;
+}
+.yjt_img img{
+	width: 7px;
+	height: 10px;
+	margin-left: 2px;
 }

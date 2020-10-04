@@ -85,3 +85,402 @@
 	font-family: tahoma;
 	font-size: 14px;
 }
+
+/* --------------------------------------------------------------------- */
+/* main的头部左侧信息栏 */
+.layout{
+	margin-top: 100px;
+}
+.layout_head{
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 1249px;
+	height: 38px;
+}
+.layout_head_left{
+	float: left;
+	width: 218px;
+	height: 38px;
+	background-color: #FF5400;
+}
+.layout_head_left img{
+	display: block;
+	margin:10px auto;
+}
+
+/* -------------------------------------------------- */
+/* 头部右侧信息栏 */
+.layout_head_right{
+	float: left;
+	width: 972px;
+	height: 38px;
+	
+	font-size: 16px;
+	font-family: "microsoft yahei";
+}
+.layout_head_right li{
+	float: left;
+	padding: 7px 30px 7px 30px;
+}
+.cu{
+	position: relative;
+}
+.icon{
+	/* float: left;
+	display: block; */
+	position: absolute;
+	bottom: 17px;
+	left: 98px;
+	font-size: 12px;
+	color: white;
+	
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #fd664d;
+	border-radius: 5px;
+	border: 1px solid #fd664d;
+}
+/* .layout_head_right li:last-child{
+	margin-left: 320px;
+	padding-right: 0;
+	font-size: 14px;
+} */
+.layout_head_right>ul li:first-child a{
+	color: #FF5400;
+}
+.layout_head_right>ul li a:hover{
+	color: #FF5400;
+}
+.head_right_foot li{
+	margin-left: 320px;
+	padding-right: 0;
+	font-size: 13px;
+}
+/* ------------------------------------------------------ */
+/* main左侧导航栏 */
+.layout_foot{
+	height: 400px;
+	padding-left: 100px;
+	width: 100%;
+	background-color: rgb(250,105,102);
+}
+.layout_foot_menu{
+	float: left;
+	font-size: 13px;
+	font-family: "microsoft yahei";
+	color: white;
+	
+	width: 218px;
+	background-color: rgba(0,0,0,0.6);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.layout_foot_menu ul{
+	display: block;
+}
+
+.layout_foot_menu li{
+	height: 20px;
+	line-height: 20px;
+	padding: 5px 0;
+}
+.layout_foot_menu> li:first-child{
+	padding-top: 20px;
+}
+.layout_foot_menu li:hover{
+	background-color: rgb(255,115,0);
+	
+}
+.layout_foot_menu li a{
+	color: white;
+}
+.menu01>ul li:last-child{
+	padding-left: 30px;
+}
+.menu01 i{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* ---------------------------------------------------------------- */
+/* main的中间图片展示区 */
+.layout_foot_banner{
+	float: left;
+}
+.layout_foot_spo{
+	background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	/* height: 398px; */
+	float: left;
+	border: 1px solid rgb(241,233,233);
+	border-left: none;
+}
+.spo_a1{
+	margin-top: 10px;
+	/* height: 180px; */
+}
+
+.spo_a2{
+	margin-top: 56px;
+	/* height: 180px; */
+}
+
+.spo_01{
+	font-size: 16px;
+	color: #FF5400;
+	font-weight: bold;
+}
+.spo_02{
+	font-size: 12px;
+	color: #6C6C6C;
+}
+.layout_foot_spo a img{
+	width: 120px;
+	height: 120px;
+}
+.layout_foot_spo>a:last-child{
+	padding-top: 100px;
+}
+
+
+/* ------------------------------------------ */
+/* 右侧登陆区 */
+.spo_login{
+	float: left;
+	background-color: white;
+	text-align: center;
+	border: 1px solid rgb(241,233,233);
+	border-left: none;
+}
+.spo_03{
+	display: block;
+	font-size: 18px;
+	color: #FF5400;
+	line-height: 30px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+.spo_img a img{
+	width: 170px;
+	height: 158px;
+}
+.login_login a:first-child{
+	line-height: 40px;
+	font-size: 12px;
+	color: #6C6C6C;
+}
+.login_foot{
+	text-align: left;
+}
+.login_login a:first-child:hover{
+	text-decoration: underline;
+}
+.spo_04{
+	padding-right: 10px;
+	border-right: 1px solid #6C6C6C;
+	color: black;
+	font-weight: bold;
+}
+/*    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+
+.login_foot a:hover,.login_login a:hover{
+	text-decoration: underline;
+}
+
+.login_login a:nth-child(2){
+	float: left;
+	display: block;
+	width: 75px;
+	height: 28px;
+	line-height: 28px;
+	margin-left: 23px;
+	background-color: #FF5400;
+	color: white;
+}
+.login_login a:last-child{
+	
+	display:block;
+	width: 73px;
+	height: 26px;
+	line-height: 26px;
+	margin-left: 103px;
+	margin-right: 20px;
+	border: 1px solid #FF5400;
+	color: #FF5400;
+}
+.login_foot{
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-bottom: 13px;
+	
+}
+.login_foot a{
+	color: #6C6C6C;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+}
+.login_foot p{
+	line-height: 25px;
+	
+}
+
+/* -----------------------------------------------------
+广告和市场分类 */
+.guanggao{
+	height: 90px;
+	padding-top: 10px;
+	margin-left: 100px;
+	
+}
+.shade{
+	padding-top: 10px;
+	height: 140px;
+	margin-left: 95px;
+	margin-right: 53px;
+	border-left: 5px solid rgb(241,233,233);
+	border-right: 5px solid rgb(241,233,233);
+}
+.shade a{
+	margin-left: 8px;
+	float: left;
+}
+.shade img{
+	box-shadow: 4px 4px 4px lightgray;
+}
+
+/* ---------------------------------------------------
+特色货源 */
+.goods_title{
+	color: black;
+	height: 31px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 24px;
+	margin: 12px 0;
+}
+.goods_title>div{
+	width: 38px;
+	height: 2px;
+	background-color: #FF5400;
+	margin: 5px auto 0;
+}
+/* ---------------------------------------------------- */
+.goods_ocms{
+	height: 402px;
+	padding-left: 100px;
+}
+.ocms_left,.ocms_right{
+	float: left;
+	width: 600px;
+	box-shadow: 2px 2px 20px rgba(66,66,66,.1);
+}
+.ocms_index{
+	float: left;
+}
+.offers{
+	
+}
+.offers a{
+	border-bottom: 1px solid #eee;
+	display: block;
+	float: left;
+	padding: 20px 0;
+	text-align: center;
+	box-sizing: border-box;
+	width: 190px;
+	height: 200px;
+}
+.offers a:first-child,.offers a:nth-child(3){
+	border-right: 1px solid #eee;
+}
+
+/* --------------------------------------------
+图片板式1公共css warpper */
+.offers img{
+	margin-top: 15px;
+	height: 115px;
+	width: 115px;
+	text-align: center;
+}
+.offers label{
+	font-size: 16px;
+	display: block;
+	height: 20px;
+	max-width: 155px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #333;
+	cursor: pointer;
+}
+
+/* -------------------------------------- */
+/* 结尾 */
+.hot_foot{
+	padding-top: 100px;
+	
+}
+.hot_foot_index {
+	
+	background-color: #000000;
+    width: 100%;
+	height: 400px;
+    margin: 0 auto;
+}
+.hot_foot_logo{
+	float: left;
+	width: 450px;
+}
+.hot_foot_logo img{
+	text-align: center;
+	display: block;
+	margin-top: 100px;
+	margin-left: 100px;
+	
+}
+.hot_foot_right{
+	float: left;
+}
+.hot_foot_right{
+	margin-top: 50px;
+}
+.foot_dyh{
+	padding-left: 30px;
+	width: 800px;
+	height: 100px;
+	border-bottom: 1px solid #949494;
+}
+.foot_guanyu{
+	margin-top: 30px;
+	
+}
+.gy_word{
+	float: left;
+	margin-left: 30px;
+	margin-top: 2px;
+	
+}
+.gy_word ul{
+	float: left;
+	width: 120px;
+}
+.gy_word .gy_list_head{
+	margin-bottom: 24px;
+}
+.gy_word ul li{
+	font-size: 12px;
+	line-height: 1em;
+	margin-bottom: 16px;
+}
+.gy_erweima{
+	float: left;
+	margin-left: 50px;
+}
+
+
