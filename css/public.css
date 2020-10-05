@@ -6,7 +6,7 @@ a{
 	color: #6C6C6C;
 	text-decoration: none;
 }
-clear01::after{
+.clear01::after{
 	display: block;
 	clear: both;
 	content: ".";

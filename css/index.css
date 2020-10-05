@@ -152,9 +152,9 @@ body{
 /* --------------------------------------------------------------------- */
 /* main的头部左侧信息栏 */
 
-.layout{
-	margin-top: 100px;
-}
+/* .layout{
+	
+} */
 .layout_head{
 	margin-left: 50px;
 	margin-right: 50px;
@@ -348,7 +348,7 @@ body{
 
 .login_userthree{
 	margin-top: 10px;
-	padding-bottom: 70px;
+	/* padding-bottom: 10px; */
 	border-bottom: 2px solid #F2F2F2;
 }
 .login_userthree a{
@@ -423,7 +423,7 @@ body{
 	color: #FF2900;
 }
 .sub_grid{
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	float: left;
 	width: 376px;
 	height: 140px;
@@ -483,8 +483,8 @@ body{
 	width: 200px;
 	height: 140px;
 	background-color: white;
-	margin-top: 20px;
-	margin-bottom: 16px;
+	/* margin-top: 20px; */
+	/* margin-bottom: 16px; */
 }
 .new_ad_box img{
 	width: 200px;
@@ -500,10 +500,12 @@ body{
 	height: 180px;
 }
 .pc_new_grandlist img{
+	z-index: 1;
 	width: 163px;
 	height: 90px;
 }
 .pc_new_grandlist{
+	
 	/* margin-top: 20px; */
 	width: 100%;
 	height: 100%;
@@ -512,7 +514,8 @@ body{
 .pc_new_grandlist li{
 	box-sizing: border-box;
 	background: #fff;
-	position: relative;
+	/* position: relative; */
+	/* width: 163px; */
 	height: 90px;
 	border-right: 1px solid #f4f4f4;
 	border-bottom: 1px solid #f4f4f4;
@@ -520,7 +523,14 @@ body{
 .grid{
 	float: left;
 }
-
+.pc_new_grandlist  li:hover{
+	z-index: 2000;
+	background-image: url(../img/backflyco.jpg);
+	background-size: 161px 88px;
+}
+.pc_new_grandlist  a:hover img{
+	visibility: hidden;
+}
 
 
 /* ----------------------------------------------- */
@@ -584,10 +594,16 @@ body{
 }
 
 .changhuo_main img,.huoping_main img{
-	width: 176px;
-	height: 1760x;
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 145px;
+	height: 145px;
 }
-
+.img_pank{
+	width: 176px;
+	height: 176px;
+	background-color: white;
+}
 .huo_offers_list li{
 	float: left;
 	margin-left: 8px;
@@ -902,7 +918,7 @@ body{
 	 position: fixed;
 	top: 0;
 	left: 0; */
-	z-index: 2000;
+	z-index: 10000;
 	width: 100%;
 	height: 54px;
 	padding: 5px 0;
@@ -974,4 +990,84 @@ body{
 	text-align: center;
 	padding: 0;
 	cursor: pointer;
+}
+
+
+
+/* -------------------------- */
+/* 二级目录 */
+.nav_slsj{
+	position: relative;
+}
+.erjimulu{
+	display: none;
+	padding: 20px 19px 10px 10px;
+	left:-16px ;
+	position: absolute;
+	/* width: 78px; */
+	/* height: 100px; */
+	background-color: white;
+	border: 1px solid #f2f2f2;
+	border-top: none;
+}
+.erjimulu_title{
+	/* padding-right: 10px; */
+	padding-bottom: 5px;
+}
+.nav_slsj:hover .erjimulu,.nav_slsj:hover .erjimuluwdsc{
+	display: block;
+}
+.erjimulu_nav{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.erjimulu03{
+	/* height: 100px; */
+	float: left;
+	padding-right: 20px;
+}
+
+.erjimuluwdsc{
+	display: none;
+	width: 250px;
+	
+	padding: 20px 19px 10px 10px;
+	left:-16px ;
+	position: absolute;
+	/* width: 78px; */
+	/* height: 100px; */
+	background-color: white;
+	border: 1px solid #f2f2f2;
+	border-top: none;
+}
+
+/* 物品加放大动画 */
+.img_pank img:hover{
+	animation-duration: 3s;
+	animation-name: pankimg;
+	animation-fill-mode: forwards;
+}
+@keyframes pankimg {
+	from{
+		width: 145px;
+		height: 145px;
+	}
+	to{
+		width: 165px;
+		height: 165px;
+	}
+}
+
+
+/* ---------------------- */
+/* 右上角背景地球动画 */
+.index_sell{
+	z-index: 2000;
+	position: relative;
+}
+.giftubofang{
+	position: absolute;
+	z-index: 100;
+	top: 90px;
+	/* left: 5px; */
 }

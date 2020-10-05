@@ -94,9 +94,9 @@ body{
 
 /* --------------------------------------------------------------------- */
 /* main的头部左侧信息栏 */
-.layout{
+/* .layout{
 	margin-top: 100px;
-}
+} */
 .layout_head{
 	margin-left: 100px;
 	margin-right: 100px;
@@ -382,6 +382,7 @@ body{
 	height: 402px;
 	padding-left: 100px;
 }
+
 .ocms_left,.ocms_right{
 	float: left;
 	width: 600px;
@@ -465,6 +466,9 @@ body{
 .foot_guanyu{
 	margin-top: 30px;
 	
+}
+.foot_guanyu a:hover{
+	text-decoration: underline;
 }
 .gy_word{
 	float: left;
