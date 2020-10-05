@@ -894,11 +894,12 @@ body{
 /* ---------------------------------------------------
 固定搜索框 */
 .layer_search{
-	/* display: none; */
+	float: left;
+	/* top: 200px; */
 	background: #fff;
-	position: absolute;
-	top: 100px;
-	/* position: fixed;
+	/* position: absolute;
+	top: 0px; */
+	 position: fixed;
 	top: 0;
 	left: 0; */
 	z-index: 2000;

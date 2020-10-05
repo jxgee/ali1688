@@ -7,8 +7,36 @@
 		<title>阿里巴巴1688.com-全球领先的采购批发平台，批发网</title>
 		<link rel="stylesheet" type="text/css" href="./css/index.css"/>
 		<link rel="stylesheet" type="text/css" href="./css/public.css"/>
+		<script src="jquery-1.12.4.js"></script>
+		<script>
+			$(window).on('scroll',function(){
+    var st = $(document).scrollTop();
+    if( st>0 ){
+        $('.layer_search').fadeIn(300);
+    }else{
+        $('.layer_search').fadeOut(300);
+    }   bai
+});
+		</script>
 	</head>
 	<body>
+		<div class="layer_search">
+			<div class="layer-1200">
+				<div class="logo_1688_warp">
+					<img src="img/1688layerlogo.png">
+				</div>
+				<div class="common-index-searchbox">
+					<div class="common-search-form">
+						<div class="ali-search" style="height: 40px; width: 735px;">
+							<form>
+								<input type="text" name="" placeholder="oi卫衣" id="" value="" />
+							</form>
+							<button class="single" type="submit" style="width: 144px;">搜索</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="index_sell">
 			<div class="index_top clear01">
 				<!-- 首页索引栏 -->
@@ -903,23 +931,5 @@
 				</div>
 			</div>
 		</div>
-		<div class="layer_search">
-			<div class="layer-1200">
-				<div class="logo_1688_warp">
-					<img src="img/1688layerlogo.png">
-				</div>
-				<div class="common-index-searchbox">
-					<div class="common-search-form">
-						<div class="ali-search" style="height: 40px; width: 735px;">
-							<form>
-								<input type="text" name="" placeholder="oi卫衣" id="" value="" />
-							</form>
-							<button class="single" type="submit" style="width: 144px;">搜索</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
 	</body>
 </html>
