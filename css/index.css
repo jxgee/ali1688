@@ -1,4 +1,10 @@
 /* 顶端菜单栏css */
+body{
+	width: 1333px;
+}
+.index_sell{
+	width: 100%;
+}
 .top_wrapper{
 	font-size: 12px;
 	color: #555;
