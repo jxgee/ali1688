@@ -279,3 +279,32 @@ img{
 #fanhuidingbu{
     background-image: url(./1/45.png);
 }
+/* img:hover{
+    width: 250px;
+    height: 250px;
+} */
+ .tupian:hover{
+    margin-top: -10px;
+} 
+.tupian1:hover{
+    margin-top: -10px;
+} 
+.tupian2:hover{
+    margin-top: -10px;
+} 
+.tupian3:hover{
+    margin-top: -10px;
+} 
+.tupian4:hover{
+    margin-top: -10px;
+} 
+.tupian5:hover{
+    margin-top: -10px;
+} 
+.tupian6:hover{
+    margin-top: -10px;
+} 
+.tupian7:hover{
+    margin-top: -10px;
+} 
+
