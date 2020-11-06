@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/public.css"/>
 		<script src="jquery-1.12.4.js"></script>
 		<script>
+			// 实现搜索栏隐藏吸顶效果
 			$(window).on('scroll',function(){
     var st = $(document).scrollTop();
     if( st>0 ){
@@ -20,12 +21,21 @@
 		</script>
 	</head>
 	<body>
-		
+		<!-- <div class="yids">
+			<p>易</p>
+			<p>大</p>
+			<p>师</p>
+			<p>牛</p>
+			<p>逼</p>
+		</div> -->
+		<!-- 1688首页 -->
 		<div class="giftubofang">
+			<!-- 实现背景中地球转动gif图 -->
 			<img src="./img/diqiu.gif">
 		</div>
 		<div class="index_sell">
 			<div class="layer_search">
+				<!-- 实现搜索栏隐藏吸顶效果的搜索框 -->
 				<div class="layer-1200">
 					<div class="logo_1688_warp">
 						<img src="img/1688layerlogo.png">
@@ -42,6 +52,7 @@
 					</div>
 				</div>
 			</div>
+			<!-- 主体内容 -->
 			<div class="index_top clear01">
 				<!-- 首页索引栏 -->
 				<div class="index_index">
@@ -50,14 +61,14 @@
 						<div class="mobile">
 							<a href="#">手机阿里</a>
 						</div>
-						<div class="login_status">
+						<div class="login_status"><!-- 实现1688的头部nav导航栏左块-->
 							<ul>
 								<li>欢迎来到阿里巴巴</li>
 								<li><a href="#" title="请登录">请登录</a></li>
 								<li><a href="#" title="免费注册">免费注册</a></li>
 							</ul>
 						</div>
-						<div class="top_input_nav">
+						<div class="top_input_nav"><!--实现1688导航栏右块-->
 							<ul>
 								<li class=""><a href="./index.html" title="1688首页">1688首页</a></li>
 								<li class="nav_slsj"><a href="#" title="我的阿里">我的阿里</a></li>
@@ -84,7 +95,7 @@
 								<li class="nav_slsj">
 									<a href="#" title="入住诚信通">入住诚信通</a>
 									<div class="erjimulu">
-										<div class="erjimulu01">
+										<div class="erjimulu01"><!--实现入住诚信通的二级菜单-->
 											<p class="erjimulu_title"><a href="#" title="立即开店">立即开店</a></p>
 											<p class="erjimulu_title"><a href="#" title="功能体验馆">功能体验馆</a></p>
 											<p class="erjimulu_title"><a href="#" title="新会员申请">新会员申请</a></p>
@@ -97,7 +108,7 @@
 								<li class="nav_slsj">
 									<a href="#" title="实力商家">实力商家</a>
 									<div class="erjimulu">
-										<div class="erjimulu01">
+										<div class="erjimulu01"><!--实现实力商家的二级菜单-->
 											<p class="erjimulu_title"><a href="#" title="商家权益">商家权益</a></p>
 											<p class="erjimulu_title"><a href="#" title="入住标准">入住标准</a></p>
 											<p class="erjimulu_title"><a href="#" title="成功案例">成功案例</a></p>
@@ -119,6 +130,7 @@
 					<div class="topnav1688">
 						<a href="#">
 							<img src="./img/1688index%20nav.png">
+							<!-- 顶部搜索框左侧的logo图片 -->
 						</a>
 					</div>
 					
@@ -150,7 +162,7 @@
 									</li>
 									<li>
 										<form action="" method="">
-											<input type="text" name="" placeholder="连衣裙批发" id="" value="" />
+											<input type="text" name="" placeholder="连衣裙定制" id="" value="" />
 										</form>
 									</li>
 									<li class="search_ss"><a href="#">搜 索</a></li>
